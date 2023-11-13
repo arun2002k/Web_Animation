@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Goku Animation</title>
+    </head>
+
+    <style>
+        body{
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        .logo{
+            position: relative;
+            
+        }
+    </style>
+
+    <body background="background.jpg">
+        <audio id="song" loop="" src="dragon_ball_v2.mp3"></audio>
+
+        <marquee direction="right" scrollamount="40">
+            <img src="dragon.gif"/ width="500">
+        </marquee>
+
+        <br><br><br><br><br><br><br><br>
+
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img id="logo" src="drangonball.png"/ width="40%">
+
+        <br><br><br><br><br>
+        <marquee direction="right" scrollamount = "20">
+            <img src ="goku.gif" width = "15%"/>
+        </marquee>
+
+        <script>
+
+            window.addEventListener('click',() => {
+    
+                document.getElementById("song").play();
+    
+            });
+    
+    
+        </script>
+    
+
+    </body>
+</html>
